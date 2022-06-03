@@ -38,6 +38,7 @@ dependencies:
   rxdart: ^0.27.3
   get_it: ^7.2.0
   video_player: ^2.4.2
+  url_launcher: ^6.1.2
 
 dev_dependencies:
   flutter_test:
@@ -71,7 +72,10 @@ flutter:
     - assets/images/background.png
     - assets/images/background_grey.png
     - assets/images/apexlogo.png
-
+    - assets/images/apex-main.png
+    - assets/videos/APEX_TRAILER.mp4
+    - assets/videos/videoplayback_1.mp4
+    - assets/images/apex_main_image.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

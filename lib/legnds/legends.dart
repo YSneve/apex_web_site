@@ -124,13 +124,13 @@ class Legends extends StatelessWidget {
                       Text(
                         LegendName,
                         style: TextStyle(
-                            fontSize: 50,
+                            fontSize: 46,
                             color: Colors.white,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(LegendRole,
                           style: TextStyle(
-                            fontSize: 25,
+                            fontSize: 23,
                             color: Colors.white,
                           )),
                       Column(children: [
@@ -138,7 +138,7 @@ class Legends extends StatelessWidget {
                           LegendInfo,
                           softWrap: true,
                           style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 14,
                               color: Colors.white,
                               fontFamily: "Roboto"),
                         )
@@ -156,11 +156,6 @@ class Legends extends StatelessWidget {
                       height: ImagesHeight,
                       width: ImagesWidth,
                       fit: BoxFit.fill),
-                  const Positioned(
-                      child: Text(
-                    "TEXT",
-                    style: TextStyle(fontSize: 50, color: Colors.black87),
-                  )),
                 ],
               ));
         }

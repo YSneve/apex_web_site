@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../OnHover.dart';
 
-double ImagesHeight = 700;
-double ImagesWidth = 550;
+double ImagesHeight = 580;
+double ImagesWidth = 480;
 
 double ImagesMarginLR = 20;
 double ImagesMarginTB = 20;
